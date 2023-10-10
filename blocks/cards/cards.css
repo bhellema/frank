@@ -1,3 +1,7 @@
+:root {
+  --card-background-color: rgb(113, 125, 23);
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -9,7 +13,7 @@
 
 .cards > ul > li {
   border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
+  background-color: var(--card-background-color)
 }
 
 .cards .cards-card-body {
